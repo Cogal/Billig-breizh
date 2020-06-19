@@ -1,5 +1,5 @@
 body {
-    background-image: url(./content/theme-font.png);
+    background-image: url(../../content/theme-font.png);
     background-color: #cccccc;
 
 }
@@ -14,20 +14,8 @@ body {
     margin-top: 1%;
     text-align: center;
     border-radius: 1%;
-    opacity: 97%;
+    opacity: 99%;
 
-}
-
-.content {
-    background-color: white;
-
-    border: 1px black solid ;
-    margin: auto;
-    margin-top: 2em;
-    margin-left: 4%;
-    margin-right: 4%;
-    opacity: 95%;
-    margin-bottom: 5%;
 }
 
 .block {
@@ -46,40 +34,43 @@ body {
 .bottomBar :hover {
     background-color: white;
 }
+
 a {
     text-decoration: none;    
     color: black;
 }
 
-.titre {
-    position: relative;
-    font-size: 300%;
+.content {
+    background-color: white;
     
-    
-    text-align: center;
-}
-h2 {
-    text-align: center;
+
+    border: 1px black solid ;
+    margin: auto;
+    margin-top: 2em;
+    margin-left: 4%;
+    margin-right: 4%;
+    opacity: 100%;
+    margin-bottom: 5%;
 }
 
-#block_1 {
-    text-align: center;
-    
-    
-}
-
-#block_2 {
-    display: inline-block;
-    margin: 1em;
-    text-align: center;
-}
-
-#block_3 {
-    display: inline-block;
-    text-align: center;
-}
-
-#block_23 {
-    text-align: center;
+#blockAd {
     font-size: 200%;
+    margin: 1em;
+    border: 1px black solid;
+    
+    padding: 1em;
+    background-color: rgb(120, 152, 240);
+    
+    position: relative;
+}
+
+#blockTel {
+    font-size: 200%;
+    margin: 1em;
+    border: 1px black solid;
+    
+    padding: 1em;
+    background-color: rgb(120, 152, 240);
+    
+    position: relative;
 }
