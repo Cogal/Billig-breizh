@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.bottomBar {
+    background-color: white;
+    border: 3px black solid;
+    margin: auto;
+    height: 5em;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.bouton {
+    display: inline;
+    margin-right: 1em;
+    margin-left: 1em;
+    vertical-align: center;
+    position: static;
+    border: 1px solid black;
+    padding: 1em;
+    color: white;
+    background-color: rgb(224, 214, 214);
+    text-decoration: none;
+}
+
+.content {
+    background-color: white;
+    border: 3px black solid;
+    margin: auto;
+    
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+h1 {
+    text-align: center;
+    display: inherit;
+}
+
+.img_link {
+    float: right;
+}
+
